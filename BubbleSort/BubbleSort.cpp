@@ -57,7 +57,7 @@ void display() {        // Prosedur untuk menampilkan hasil
     for (int j = 0; j < n; j++) {                       // Looping dengan j dimulai dari 0 hingga n-1
         cout << a[j] << endl;                           // Output ke layar
     }
-    cout << endl;               // output baris kosong
+    cout << endl;               // output baris kosong 
 }
 
 int main() {
