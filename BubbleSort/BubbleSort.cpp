@@ -64,7 +64,7 @@ int main() {
     input();        // Memanggil prosedur input
     unsorted();     // Memanggil prosedur unsrted() dari
     bubbleSortArray();  // Memanggil prosedur bubblSortArray()
-    display();      // Memanggil prosedur display()
+    display();      // Memanggil prosedur display() 
     return 0;
 }
 
