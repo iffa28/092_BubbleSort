@@ -26,6 +26,18 @@ void input() {      // procedur untuk input
 
     }
 }
+
+void bubbleSortArray() {      //prosedur untuk mengurutkan array dengan metode bubble sort
+    for (int i = 1; i < n; i++) {       // Looping dengan i dimulai dari 1 hingga n-1
+        for (int j = 0 < n - i; j++) {  // jika nilai pada a[j] lebih besar dari a[j+1]
+            if (a[j] > a[j + 1]) {      // Simpan nilai a[j] ke variabel sementara temp
+                int temp = a[j];        // Assign nilai a[j + 1] ke a[j]
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
+            }
+        }
+    }
+}
 int main()
 {
     
